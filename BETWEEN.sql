@@ -1,0 +1,15 @@
+SELECT
+	*
+FROM orders
+WHERE order_id BETWEEN 10401 AND 10499;
+
+SELECT
+	*
+FROM orders
+WHERE order_date BETWEEN '1997-01-01' AND '1997-12-31';
+
+SELECT
+	*
+FROM products
+WHERE unit_price BETWEEN 10.001 AND 20
+ORDER BY unit_price
